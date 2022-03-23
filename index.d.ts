@@ -21,7 +21,7 @@ declare module '@shankarmorwal/rn-viewpager' {
       indicator: React.ReactNode;
       pagerStyle?: ViewProperties['style'];
       autoPlayEnable?: boolean;
-      autoPlayInterval?: boolean;
+      autoPlayInterval?: number;
       horizontalScroll?: boolean;
 
     }
